@@ -1,10 +1,10 @@
-## About this repository
+## About
 This repo contains the code I used to complete my dissertation from the initial extraction, to the data cleaning, and finally conducting the analysis itself. Most of the extraction, cleaning, and analysis has been done using R with the exception of the extraction step for the Reddit data which uses Python.
 
 ## A note about the data
 This project extracts unstructured data from Reddit and the [Human Rights Campaign website](https://www.hrc.org/news?topic=transgender). To query the millions of Reddit datapoints necessary for this project, I used [Pushshift.io](https://pushshift.io/api-parameters/) in Python to circumvent the time cost of using R to extract the same data. For the HRC data, I used R as the number of datapoints was significantly less than Reddit. Additionally, HRC is undergoing a complete update of their website, so some sections of the extraction code may no longer work in the near future.
 
-## Abstract
+## Project Abstract
 A mixed-method textual analysis of transgender representation using Reddit and CSS data. This project uses NLP, topic modeling, and critical discourse analysis clean, wrangle, and model the data to answer the question: How are transgender people represented by the Human Rights Campaign?
 
 In the United States, the transgender community experiences high rates of violence and discrimination in all areas of life in comparison to the general population. The effect is multiplied for transgender people of color. Narrow understandings of the trans experience and inaccurate representations of trans issues even among pro-trans organizations leave much room for improvement in the treatment of trans individuals. The Human Rights Campaign, the largest LGBT advocacy organization in the US, has had a historically turbulent relationship with the trans community since its inception but with the promise of a more trans-focused agenda, HRC seeks to atone for their previous treatment of trans people. 
