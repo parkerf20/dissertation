@@ -32,4 +32,3 @@ pooled_reddit <- reddit_text %>%
   group_by(link_id) %>%
   summarise(text = paste(text, collapse = ""))
 write.csv(pooled_reddit, file = "pooled_reddit.csv")
-```
